@@ -51,6 +51,11 @@ Corrective:
 - Credential reset
 - Incident response process
 
+## Phishing Triage Scenarios Practiced
+- Credential compromise response prioritization
+- Endpoint compromise response considerations
+- MFA as preventive control analysis
+
 ---
 
 ## Scope
@@ -102,6 +107,8 @@ The phishing scenario simulated a credential harvesting attempt leveraging urgen
 - Reviewed Linux authentication and privilege escalation logs in /var/log/secure
 - Validated sudo activity was being recorded
 - Secure admin account separation
+- Operational Control:
+Baseline snapshot created to support rollback and safe change testing.
 
 ---
 
@@ -138,6 +145,8 @@ Validated dual-NIC architecture from the guest operating system:
 9. Enumerated listening services using ss -tulnp
 10. Reviewed enabled services for preliminary hardening analysis
 11. Documented phishing threat scenario and mapped controls
+12. Removed installation ISO from virtual optical drive and verified persistent boot from virtual disk.
+13. Created Day-01-Hardened-Baseline snapshot to preserve validated security baseline and support rollback for future lab experimentation.
 
 ---
 
@@ -188,6 +197,17 @@ Validated:
 ## Lessons Learned
 - Validated SELinux mandatory access controls were operating in enforcing mode as part of the Linux security baseline.
 
+### Incident Response 
+1. Contain
+2. Investigate
+3. Eradicate
+4. Recover
+
+- Different risks elicit different response
+- Layered controls such as MFA can prevent successful compromise even when primary credentials are exposed.
+- Post-install step:
+Removed installation ISO from virtual optical drive and verified system boots from virtual disk.
+
 ---
 
 ## Evidence
@@ -222,6 +242,8 @@ This lab includes captured evidence documenting deployment, security baseline va
 - 21-package-repository-troubleshooting.png — Repository troubleshooting evidence
 - 22-listening-services-review.png — Attack surface enumeration
 - 23-enabled-services-review.png — Enabled service hardening review
+- 24-core-security-services-validation
+- 25-golden-baseline-snapshot-created.png
 
 ### Evidence Highlights
 Collected evidence supports validation of:
