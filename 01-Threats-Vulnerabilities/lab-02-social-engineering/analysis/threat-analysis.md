@@ -56,3 +56,17 @@ Overall Risk: Medium-High
 - Use SSH keys over passwords
 - Configure login attempt thresholds
 - Monitor failed login thresholds in Splunk
+
+## Security Control Gap Identified
+
+Control Tested:
+Fail2Ban automated brute-force protection
+
+Observation:
+The control was deployed and configured, but response actions (IP banning) did not trigger during simulated attack activity.
+
+Risk:
+Partial control effectiveness may allow continued password attack attempts if tuning is incomplete.
+
+Recommendation:
+Perform filter tuning, log parsing validation, and repeat enforcement testing in a dedicated follow-up lab.

@@ -107,6 +107,19 @@ PasswordAuthentication no
 
 --------------------------------------------------
 
+## Control Validation Finding
+
+Validation during this exercise identified a control-gap condition:
+
+- Detection mechanisms functioned as expected
+- Automated prevention did not fully trigger
+- Further tuning is required before relying on automated blocking
+
+Follow-Up Action:
+Escalate for control engineering review and retest after tuning.
+
+--------------------------------------------------
+
 ## Recovery
 
 Recovery Actions

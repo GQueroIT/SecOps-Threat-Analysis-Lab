@@ -132,6 +132,22 @@ This activity aligns with:
 * Authentication anomaly detection
 * Secure log review
 
+## Defensive Control Validation
+
+As part of this lab, an automated defensive control was deployed using Fail2Ban to mitigate SSH brute-force activity.
+
+Validation Results:
+- SSH protection jail was configured and enabled
+- Simulated password attack activity was generated using Ncrack
+- Authentication abuse was successfully detected and correlated in Splunk
+- Fail2Ban enforcement logic did not trigger bans during validation
+- Additional filter tuning is required before the control can be considered fully operational
+
+### Key Finding
+Detection controls were validated successfully.
+Preventive control deployment was successful.
+Preventive control response requires further tuning and testing.
+
 ### Corrective Controls
 
 * Fail2Ban blocking

@@ -41,6 +41,8 @@
 
 ## Lab Completed
 
+Password Attacks, Authentication Abuse & Credential Defense
+
 ---
 
 ## Questions Practiced
@@ -161,6 +163,15 @@ BEST answer?
 
 - Weak Topic Flag:
 Pretexting vs Vishing specificity
+
+---
+
+## Additional Concepts Reinforced Today
+
+- Implemented and tested Fail2Ban
+- Validated difference between deploying a control and proving it works
+- Observed that security controls require tuning and verification
+- Identified future lab opportunity focused on automated response controls
 
 ---
 
