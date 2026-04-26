@@ -164,6 +164,18 @@ Used for:
 
 ---
 
+## Security Workflow Diagram
+
+This lab includes an architecture workflow diagram mapping:
+- credential attack activity
+- detection logic
+- response decision path
+- defensive controls
+
+See topology/credential-attack-detection-workflow.png
+
+---
+
 ## Files
 - README.md
 - analysis/threat-analysis-report.md
