@@ -150,6 +150,12 @@ Focus:
 * VirusTotal
 * MXToolBox
 * draw.io
+* OpenSSH
+* Fail2Ban
+* Ncrack
+* grep
+* scp
+* sudo telemetry analysis
 
 ## Documentation and Development
 
@@ -232,11 +238,12 @@ These serve as project reference templates and documentation standards.
 
 ## Current Status
 
-Day 0 — Project Planning Complete
+Current Status
+Day 3 Complete — Credential Abuse Detection & Privileged Activity Monitoring
 
 ## Current Phase
 
-Pre-Sprint Preparation
+Phase 1 — Threats and Vulnerabilities (Active)
 
 ## Milestones
 
@@ -251,8 +258,8 @@ Pre-Sprint Preparation
 ## Completed Labs
 
 * [X] Lab 01 Secure Linux Jump Box Deployment & Phishing Threat Analysis
-* [ ] Lab 02 Social Engineering
-* [ ] Lab 03 Credential Attacks
+* [X] Lab 02 Password Attacks, Authentication Abuse & Credential Defense
+* [X] Lab 03 Credential Abuse Detection & Suspicious Activity Monitoring
 * [ ] Lab 04 Malware Analysis
 * [ ] Lab 05 Web Application Threats
 * [ ] Lab 06 Threat Hunting PBQ
@@ -279,11 +286,25 @@ This project emphasizes:
 
 ---
 
+# Security Skills Demonstrated So Far
+
+- Phishing threat analysis
+- SSH credential attack simulation
+- Authentication log analysis
+- Splunk log ingestion and correlation
+- MITRE ATT&CK technique mapping
+- Suspicious privilege activity analysis
+- Defensive control validation
+- Linux security monitoring
+- Basic detection engineering concepts
+
+---
+
 # Expected Outcomes
 
 By completion, this repository is intended to contain:
 
-* 30 documented security labs
+* 30 progressively documented security labs with evidence, detection logic, and defensive analysis
 * Security+ aligned practical artifacts
 * Threat analysis documentation
 * Security control assessments
